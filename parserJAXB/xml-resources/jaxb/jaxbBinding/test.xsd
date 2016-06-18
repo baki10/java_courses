@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <xsd:element name="pricelist" type="priceType" />
+    
+    <xsd:complexType name="priceType">
+            <xsd:sequence>
+                <xsd:element name="item" type="itemType" maxOccurs="1000"/>
+            </xsd:sequence>
+        <xsd:attribute name="date" type="xsd:date" />
+    </xsd:complexType>
+
+    <xsd:complexType name="itemType">
+        <xsd:choice>
+            <xsd:element name="name">
+                <xsd:simpleType>
+                        <xsd:restriction base="xsd:string">
+                            <xsd:pattern value="[0-9a-z]{1,20}" />
+                        </xsd:restriction>
+                </xsd:simpleType>
+            </xsd:element>
+            <xsd:element name="material" type="xsd:string" />
+            <xsd:element name="nabor">
+                <xsd:simpleType>
+                    <xsd:list itemType="xsd:integer" />
+                </xsd:simpleType>
+            </xsd:element>
+         </xsd:choice>
+        <xsd:attribute name="price" type="xsd:int" use="required"/>
+    </xsd:complexType>
+</xsd:schema>
+

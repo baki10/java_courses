@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pricelist date="2010-10-01">
+    <item price="20">
+        <name>Хлеб</name>
+    </item>
+    <item price="7">
+        <material>Рис</material>
+        <!--<name>riss</name> Ошибка - сhoiсe = только одини из-->
+    </item>
+    <item price="70">
+        <name>ЫЫЫ</name>
+        <nabor>2 3 4 5</nabor>
+    </item>
+    <!--<item price="10">
+        <name>hello1</name>
+    </item>
+    <item price     =    "20">
+        <name>hello2</name>
+    </item>
+    -->
+</pricelist>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pricelist date="2012-11-30">
+    <group title="Продукты">
+        <item price="18"><name>Хлеб</name></item>
+
+        <item price="32">
+            <material>Сахар</material>
+            <packs>1 2 5 10</packs> <!-- размеры упаковок -->
+            <!--<name>riss</name>-->
+            <!-- Ошибка - сhoiсe = "только один из" -->
+        </item>
+    </group>
+    
+    <group title="Стройтовары">
+        <item price="6">
+            <name>Лопата</name>
+        </item>
+        <item price="6">
+            <material>Кирпич</material>
+        </item>
+    </group>
+    <group title="пусто"/>
+</pricelist>

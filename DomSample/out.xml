@@ -1,0 +1,22 @@
+<pricelist date="2012-11-30">
+<group a="777" title="Продукты">
+<item a="777" price="18">
+<name a="777">Хлеб</name>
+</item>
+<item a="777" price="33">
+<material a="777">Сахар+</material>
+<packs a="777">1 2 5 10</packs>
+<!-- размеры упаковок -->
+<!--<name>riss</name>-->
+<!-- Ошибка - сhoiсe = "только один из" -->
+</item>
+</group>
+<group a="777" title="Стройтовары">
+<item a="777" price="6">
+<name a="777">Лопата</name>
+</item>
+<item a="777" price="6">
+<material a="777">Кирпич</material>
+</item>
+</group>
+<group a="777" title="пусто"/>ZZZZZZ</pricelist>
